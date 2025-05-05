@@ -90,6 +90,24 @@ To-Do / Ideas
 - Add --unlink command (reverse link)
 - Add compatibility with other editors besides nano
 
+# Install
+to install on termux 
+```
+pkg install git clang make # optional
+git clone https://github.com/srhs1723/zd/
+clang zd/C/zd.c -o zd
+mv zd $PREFIX/bin
+```
+
+To install in Ubuntu 
+```
+sudo apt install git gcc
+git clone https://github.com/srhs1723/zd/
+clang /path/to/zd/C/zd.c -o zd
+mv /path/to/zd /usr/bin
+```
+
+
 ---
 
 License
