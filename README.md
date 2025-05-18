@@ -90,6 +90,9 @@ To-Do / Ideas
 - Add --unlink command (reverse link)
 - Add compatibility with other editors besides nano
 
+---
+
+
 # Install
 to install on termux 
 ```
@@ -110,7 +113,7 @@ mv /path/to/zd /usr/bin
 
 ---
 
-License
+# License
 
 MIT License
 Use it. Share it. Break your files with it. Just don’t blame me.
